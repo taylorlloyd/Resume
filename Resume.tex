@@ -1,0 +1,36 @@
+\documentclass[11pt, letterpaper]{awesome-cv}
+% Fonts Directory
+\fontdir[fonts/]
+\colorlet{awesome}{awesome-skyblue}
+
+% Highlight section titles
+\setbool{acvSectionColorHighlight}{true}
+
+% Personal Information
+\name{Taylor}{Lloyd}
+\position{Software Developer{\enskip\cdotp\enskip}Computer Scientist}
+\address{Edmonton, Alberta, Canada}
+\mobile{(+1) 206 861-9523}
+\email{taylor@taylorlloyd.ca}
+% \homepage{taylorlloyd.ca}
+\github{taylorlloyd}
+\linkedin{taylor-lloyd}
+
+\begin{document}
+
+\makecvheader
+
+\makecvfooter
+  {\today}
+  {Taylor Lloyd}
+  {\thepage}
+
+  \input{education.tex}
+  \input{experience.tex}
+  \input{skills.tex}
+  \input{honors.tex}
+  \input{publications.tex}
+
+\end{document}
+
+
