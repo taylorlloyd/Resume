@@ -1,4 +1,5 @@
 \documentclass[11pt, letterpaper]{awesome-cv}
+\usepackage{multicol}
 % Fonts Directory
 \fontdir[fonts/]
 \colorlet{awesome}{awesome-skyblue}
@@ -10,7 +11,7 @@
 \name{Taylor}{Lloyd}
 \position{Software Developer{\enskip\cdotp\enskip}Computer Scientist}
 \address{Edmonton, Alberta, Canada}
-\mobile{(+1) 206 861-9523}
+\mobile{(+1) 780 952-7280}
 \email{taylor@taylorlloyd.ca}
 % \homepage{taylorlloyd.ca}
 \github{taylorlloyd}
@@ -25,9 +26,12 @@
   {Taylor Lloyd}
   {\thepage}
 
+\begin{multicols}{2}
+  \input{projects.tex}
   \input{education.tex}
-  \input{experience.tex}
   \input{skills.tex}
+\end{multicols}
+  \input{experience.tex}
   \input{honors.tex}
   \input{publications.tex}
 
