@@ -552,6 +552,9 @@
 \newcommand*{\publication}[4]{%
 \cventry{#1}{\faFileTextO \hspace{1em}#2}{#3}{#4}{}
 }
+\newcommand*{\patent}[4]{%
+\cventry{#1}{\faBook \hspace{1em}#2}{#3}{#4}{}
+}
 
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
