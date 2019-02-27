@@ -1,4 +1,4 @@
 build:
-	latexmk -xelatex -pdf Resume.tex
+	latexmk -xelatex Resume.tex
 clean:
-	-rm -rf *.pdf *.aux *.fdb_latexmk *.fls *.log * .out
+	-rm -rf  *.aux *.fdb_latexmk *.fls *.log *.out
