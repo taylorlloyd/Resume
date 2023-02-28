@@ -548,12 +548,15 @@
 
 \newcommand*{\presentation}[4]{%
 \cventry{#1}{\faCommentsO \hspace{1em}#2}{#3}{#4}{}
+\vspace{-0.5em}
 }
 \newcommand*{\publication}[4]{%
 \cventry{#1}{\faFileTextO \hspace{1em}#2}{#3}{#4}{}
+\vspace{-0.5em}
 }
 \newcommand*{\patent}[4]{%
 \cventry{#1}{\faBook \hspace{1em}#2}{#3}{#4}{}
+\vspace{-0.5em}
 }
 
 % Define an environment for cvsubentry
